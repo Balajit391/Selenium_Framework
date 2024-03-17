@@ -1,4 +1,4 @@
-package com.base;
+package com.utility;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,6 +20,12 @@ import com.driverManager.Driver;
 
 final public class Utility {
 	
+	private Utility() {}
+	
+	public static String getScreenCapture() {
+		
+		return ((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.BASE64);
+	}
 	
 	
 	public static void takeScreenCapture(String Function) {

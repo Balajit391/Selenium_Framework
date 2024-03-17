@@ -6,8 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.base.Utility;
 import com.driverManager.Driver;
+import com.utility.Utility;
 
 public class PariseraHomepage {
 

@@ -2,7 +2,7 @@ package com.pageObject;
 
 import org.openqa.selenium.By;
 
-import com.base.Utility;
+import com.utility.Utility;
 
 public class Parisera {
 	

@@ -4,10 +4,10 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.base.Base;
-import com.base.Utility;
 import com.dataio.ConfigurationFactory;
 import com.driverManager.Driver;
 import com.pageObject.Myntra;
+import com.utility.Utility;
 
 import dev.failsafe.internal.util.Assert;
 

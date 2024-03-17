@@ -4,9 +4,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.base.Base;
-import com.base.Utility;
 import com.driverManager.Driver;
 import com.pageObject.Parisera;
+import com.utility.Utility;
 
 public class TestRunnerPerisera extends Base {
 
